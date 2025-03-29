@@ -7,6 +7,11 @@
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/ms1/pom.xml" />
         <option value="$PROJECT_DIR$/ms-1/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-2/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/content-ms/pom.xml" />
+        <option value="$PROJECT_DIR$/recommendation/pom.xml" />
+        <option value="$PROJECT_DIR$/recommentations-ms/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

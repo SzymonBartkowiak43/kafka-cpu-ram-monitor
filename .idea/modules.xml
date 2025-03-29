@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/kafka-cpu-ram-monitor.iml" filepath="$PROJECT_DIR$/kafka-cpu-ram-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recommendation/recommendation-ms.iml" filepath="$PROJECT_DIR$/recommendation/recommendation-ms.iml" />
     </modules>
   </component>
 </project>
