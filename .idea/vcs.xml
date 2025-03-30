@@ -2,11 +2,15 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/api-gateway" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/content-client-ms" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/content-ms" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/eureka-server" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ms-1" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ms-2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/offers-ms" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/recommentations-ms" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/spring-cloud-config-server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/zzTest1" vcs="Git" />
   </component>
 </project>

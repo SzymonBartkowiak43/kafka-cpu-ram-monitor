@@ -13,23 +13,20 @@ import java.util.Map;
 @RequestMapping("/api/content")
 public class ContentController {
 
-    private List<Map<String, String>> contentList = List.of(
-            Map.of("id", "1", "title", "AkademiaSpringa.pl", "tag", "spring"),
-            Map.of("id", "2", "title", "ArchitektIT.pl", "tag", "cloud")
-    );
+    private final ContentRepository contentRepository;
 
+    public ContentController(ContentRepository contentRepository) {
+        this.contentRepository = contentRepository;
+    }
 
     @GetMapping
-    public List<Map<String, String>> getContent() {
-        return contentList;
+    public List<Content> getContent() {
+        return contentRepository.findAll();
     }
 
     @GetMapping("/{tag}")
-    public List<Map<String, String>> getContentByTag(@PathVariable String tag) {
-        return contentList.stream()
-                .filter(content -> content.get("tag").equalsIgnoreCase(tag))
-                .toList();
+    public List<Content> getContentByTag(@PathVariable String tag) {
+        return contentRepository.findByTagIgnoreCase(tag);
     }
-
 
 }
